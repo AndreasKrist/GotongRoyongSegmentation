@@ -77,9 +77,7 @@ Each model has been evaluated for its performance in segmenting road cracks, wit
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to add any missing details, such as specific dataset/model links or your own customization. Let me know if you'd like further refinements!
+## Participated in this project
+- Andreas Mardohar Kristianto - 2602100096 
+- Gabriel Enrico - 2602105481 
+- Alexander Prajna Felipe - 2602097403
