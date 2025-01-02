@@ -1,4 +1,4 @@
-# Road Crack Segmentation Project
+# Road Crack (and pothole) Segmentation Project
 
 ## Overview
 
