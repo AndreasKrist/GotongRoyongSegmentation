@@ -127,7 +127,7 @@ class RoadCrackSegmenter:
 
 def main():
     # Path to your road crack image
-    image_path = 'images\CFD_001.jpg'
+    image_path = 'input_image.jpg'
     
     # Create and run segmenter
     segmenter = RoadCrackSegmenter(image_path)
