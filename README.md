@@ -1,4 +1,4 @@
-# Road Crack (and Pothole) Segmentation Project
+# Road Crack Segmentation Project
 
 ## Overview
 
@@ -43,10 +43,32 @@ Each model has been evaluated for its performance in segmenting road cracks, wit
    pip install -r requirements.txt
    ```
 
-### YOLO 
-#### For YOLO, we suggest to visit for the file used [Hugging Face YOLO space](https://huggingface.co/spaces/AndreasKrist/GotongRoyongSegmentation/tree/main) 
-#### YOLO DEMO : [CRACK & POTHOLE Detector](https://huggingface.co/spaces/AndreasKrist/GotongRoyongSegmentation) 
+Here’s the **Usage** section tailored to your specifications:  
 
+---
+
+## Usage  
+
+### 1. **Canny Edge Detection**  
+- **Parameter Tuning**: Use `cannyEdgeSearch.ipynb` to find the best parameters for edge detection.  
+- **Interactive App**: Run `cannyEdgeSliderApp.py` for a slider-based app to adjust parameters dynamically.  
+  ```bash
+  python cannyEdgeSliderApp.py
+  ```
+
+### 2. **Watershed Algorithm**  
+- **Parameter Tuning**: Use `watershedSearch.ipynb` to identify optimal parameters for segmentation.  
+- **Interactive App**: Run `watershedSliderApp.py` to explore parameters interactively.  
+  ```bash
+  python watershedSliderApp.py
+  ```
+
+### 3. **U-Net**  
+- **Training and Inference**: The entire implementation is in `unet.ipynb`. Open the notebook to train or test the U-Net model for segmentation tasks.  
+
+### 4. **YOLO**  
+- **Hugging Face Model**: For YOLO, refer to the files hosted on [Hugging Face YOLO](https://huggingface.co/spaces/AndreasKrist/GotongRoyongSegmentation/tree/main) for the final model (small.pt).  
+- **Demo Application**: Explore the [CRACK & POTHOLE Detector](https://huggingface.co/spaces/AndreasKrist/GotongRoyongSegmentation) in the provided YOLO demo.  
 
 ---
 ## References
