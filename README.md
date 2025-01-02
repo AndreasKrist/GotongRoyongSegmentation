@@ -43,8 +43,6 @@ Each model has been evaluated for its performance in segmenting road cracks, wit
    pip install -r requirements.txt
    ```
 
-Here’s the **Usage** section tailored to your specifications:  
-
 ---
 
 ## Usage  
