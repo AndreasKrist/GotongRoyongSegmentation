@@ -6,8 +6,8 @@ This repository contains the implementation of various models for **road crack s
 - **Canny Edge Detection**  
 - **Watershed Algorithm**  
 - **U-Net**  
-- **YOLOV11 (You Only Look Once)**  
-
+- **YOLOV11 (You Only Look Once)**
+- 
 Each model has been evaluated for its performance in segmenting road cracks, with datasets sourced from Kaggle and Roboflow.
 
 ---
